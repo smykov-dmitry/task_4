@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>ToDo</title>
+</head>
+<body>
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2>Add new task</h2>
+        </div>
+        <div>
+            <label>Date:</label>
+        </div>
+        <div>
+            <input type="date" id="date">
+        </div>
+        <div>
+            <label>Title:</label>
+        </div>
+        <div>
+            <input type="text" id="title">
+        </div>
+        <div class="modal-buttons">
+            <div>
+                <button class="save-button">Save</button>
+            </div>
+            <div>
+                <button class="cancel-button">Cancel</button>
+            </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+    </div>
+</div>
+<div class="landing">
+    <div class="header">
+        <h1>ToDo List</h1>
+    </div>
+    <div class="buttons">
+        <div class="button-container">
+            <button class="add-button">Add</button>
+        </div>
+        <div class="button-container">
+            <button class="clear-button">Clear</button>
+        </div>
+    </div>
+    <div class="content">
+        <div class="data" id="data">
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+</div>
+</body>
+<script src="js/script.js"></script>
+</html>
